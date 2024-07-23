@@ -6,7 +6,7 @@ import { ArrowUpRightIcon, LinkedInIcon } from "@/components/icons";
 
 export default function Home() {
   return (
-    <main className="mx-auto pt-24 max-w-screen-sm container relative">
+    <main className="mx-auto md:pt-24 pt-16 max-w-screen-sm container relative">
       <div className="flex items-center gap-2">
         <h1 className="font-semibold text-white">Josh Daniel</h1>
 
@@ -20,9 +20,9 @@ export default function Home() {
       </div>
 
       <p className="mt-6">
-        Hello, I&apos;m a software developer based in the Philippines. I specialize
-        in Next.js, TypeScript, Tailwind CSS, and GraphQL. My projects are
-        open-source on{" "}
+        Hello, I&apos;m a software developer based in the Philippines. I
+        specialize in Next.js, TypeScript, Tailwind CSS, and GraphQL. My
+        projects are open-source on{" "}
         <Link
           href="https://github.com/joshxfi"
           target="_blank"
@@ -53,7 +53,7 @@ export default function Home() {
 
       <DotPattern
         className={cn(
-          "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)] mt-32",
+          "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)] md:mt-32 mt-28 ml-2 sm:ml-0",
         )}
       />
     </main>
