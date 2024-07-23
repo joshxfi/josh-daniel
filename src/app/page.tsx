@@ -11,7 +11,7 @@ export default function Home() {
         <h1 className="font-semibold text-white">Josh Daniel</h1>
 
         <Link
-          href="https://www.linkedin.com/in/joshxfi/"
+          href="https://www.linkedin.com/in/joshxfi"
           target="_blank"
           className="text-zinc-200 hover:text-white transition-colors"
         >
@@ -20,7 +20,7 @@ export default function Home() {
       </div>
 
       <p className="mt-6">
-        Hello, I'm a software developer based in the Philippines. I specialize
+        Hello, I&apos;m a software developer based in the Philippines. I specialize
         in Next.js, TypeScript, Tailwind CSS, and GraphQL. My projects are
         open-source on{" "}
         <Link
@@ -39,7 +39,11 @@ export default function Home() {
           <ArrowUpRightIcon className="size-4" />
         </Link>
 
-        <Link href="resume.pdf" target="_blank" className="flex items-center hover:underline">
+        <Link
+          href="resume.pdf"
+          target="_blank"
+          className="flex items-center hover:underline"
+        >
           Resume
           <ArrowUpRightIcon className="size-4" />
         </Link>
