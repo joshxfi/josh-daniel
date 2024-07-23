@@ -39,7 +39,7 @@ export default function Home() {
           <ArrowUpRightIcon className="size-4" />
         </Link>
 
-        <Link href="#" className="flex items-center hover:underline">
+        <Link href="resume.pdf" target="_blank" className="flex items-center hover:underline">
           Resume
           <ArrowUpRightIcon className="size-4" />
         </Link>
