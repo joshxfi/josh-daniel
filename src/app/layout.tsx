@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${GeistSans.className} bg-[#101010] text-zinc-100`}>{children}</body>
+      <body className={`${GeistSans.className} bg-background text-zinc-100`}>{children}</body>
     </html>
   );
 }
