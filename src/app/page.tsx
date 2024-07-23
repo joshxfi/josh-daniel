@@ -53,7 +53,7 @@ export default function Home() {
 
       <DotPattern
         className={cn(
-          "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)] md:mt-32 mt-28 ml-2 sm:ml-0",
+          "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)] md:mt-36 mt-24",
         )}
       />
     </main>
