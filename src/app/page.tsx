@@ -20,22 +20,16 @@ export default function Home() {
       </div>
 
       <p className="mt-6">
-        Hello, I&apos;m a software developer based in the Philippines. I
-        specialize in Next.js, TypeScript, Tailwind CSS, and GraphQL. My
-        projects are open-source on{" "}
-        <Link
-          href="https://github.com/joshxfi"
-          target="_blank"
-          className="underline"
-        >
-          GitHub
-        </Link>
-        .
+        Hello, I&apos;m a software engineer based in the Philippines. I
+        specialize in building web apps with Next.js and TypeScript.
       </p>
 
       <div className="gap-4 text-zinc-300 mt-4 flex items-center">
-        <Link href="#" className="flex items-center hover:underline">
-          Blog
+        <Link
+          href="https://github.com/joshxfi"
+          className="flex items-center hover:underline"
+        >
+          GitHub
           <ArrowUpRightIcon className="size-4" />
         </Link>
 
