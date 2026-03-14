@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { cn } from "@/lib/utils";
-import { Projects } from "@/components/projects";
 import { DotPattern } from "@/components/dot-pattern";
 import { ArrowUpRightIcon, LinkedInIcon } from "@/components/icons";
+import { Projects } from "@/components/projects";
+import { cn } from "@/lib/utils";
 
 export default function Home() {
   return (

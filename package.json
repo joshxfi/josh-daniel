@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "format": "bunx--bun @biomejs/biome format --write",
+    "lint": "bunx --bun @biomejs/biome lint --write",
+    "check": "bunx --bun @biomejs/biome check --write"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -17,12 +19,11 @@
     "tailwind-merge": "^2.4.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.4.7",
     "@tailwindcss/postcss": "^4.2.1",
     "@types/node": "^20",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.6",
     "postcss": "^8",
     "tailwindcss": "^4.2.1",
     "typescript": "^5"

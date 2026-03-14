@@ -1,4 +1,5 @@
-import { SVGProps } from "react";
+/** biome-ignore-all lint/a11y/noSvgWithoutTitle: icons */
+import type { SVGProps } from "react";
 
 export function ArrowUpRightIcon(props: SVGProps<SVGSVGElement>) {
   return (
