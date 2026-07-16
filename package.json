@@ -11,12 +11,10 @@
     "check": "bunx --bun @biomejs/biome check --write"
   },
   "dependencies": {
-    "clsx": "^2.1.1",
-    "geist": "^1.7.2",
+    "cnfast": "^0.0.8",
     "next": "16.2.10",
     "react": "19.2.7",
-    "react-dom": "19.2.7",
-    "tailwind-merge": "^2.6.1"
+    "react-dom": "19.2.7"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.4",

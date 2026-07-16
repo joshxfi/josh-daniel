@@ -1,6 +1,11 @@
-import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
+import { Geist } from "next/font/google";
 import "./globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://josh.omsimos.com"),
@@ -38,7 +43,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${GeistSans.className} bg-background text-zinc-100`}>
+      <body
+        className={`${geistSans.variable} antialiased bg-background text-zinc-100`}
+      >
         {children}
       </body>
     </html>
