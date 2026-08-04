@@ -2,7 +2,6 @@ import Link from "next/link";
 import { DotPattern } from "@/components/dot-pattern";
 import { GitHubIcon } from "@/components/icons";
 import { Projects } from "@/components/projects";
-import { cn } from "@/lib/utils";
 
 export default function Home() {
   return (
@@ -34,11 +33,7 @@ export default function Home() {
 
       <Projects />
 
-      <DotPattern
-        className={cn(
-          "mask-[radial-gradient(300px_circle_at_center,white,transparent)] md:mt-36 mt-24",
-        )}
-      />
+      <DotPattern className="mask-[radial-gradient(300px_circle_at_center,white,transparent)] md:mt-36 mt-24" />
     </main>
   );
 }
