@@ -8,14 +8,14 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://josh.omsimos.com"),
+  metadataBase: new URL("https://joshxfi.com"),
   title: "Josh Daniel",
   description: "Software developer. Built umamin.link, frameyu.com, and more.",
   openGraph: {
     title: "Josh Daniel",
     description:
       "Software developer. Built umamin.link, frameyu.com, and more.",
-    url: "https://josh.omsimos.com",
+    url: "https://joshxfi.com",
     siteName: "Josh Daniel",
     type: "website",
   },

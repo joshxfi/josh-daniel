@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { DotPattern } from "@/components/dot-pattern";
-import { ArrowUpRightIcon, LinkedInIcon } from "@/components/icons";
+import { GitHubIcon } from "@/components/icons";
 import { Projects } from "@/components/projects";
 import { cn } from "@/lib/utils";
 
 export default function Home() {
   return (
     <main className="mx-auto md:pt-24 pt-16 max-w-(--breakpoint-sm) container relative">
-      <div className="flex items-center gap-2">
+      <div className="flex gap-2 items-center">
         <h1 className="font-semibold text-white">Josh Daniel</h1>
 
         <Link
@@ -15,33 +15,22 @@ export default function Home() {
           target="_blank"
           className="text-zinc-200 hover:text-white transition-colors"
         >
-          <LinkedInIcon className="size-4" />
+          <GitHubIcon className="size-4" />
         </Link>
       </div>
 
-      <p className="mt-6">
-        Hello, I&apos;m a software engineer based in the Philippines. I
-        specialize in building web apps with Next.js and TypeScript.
+      <p className="mt-2">
+        I&apos;m a Lead Software Engineer at{" "}
+        <Link
+          href="https://referenta.de"
+          rel="noreferrer noopener"
+          className="text-zinc-300 underline"
+        >
+          Referenta,
+        </Link>{" "}
+        improving routine political workflows. As a hobby, I build open-source
+        projects reaching millions of users.
       </p>
-
-      <div className="gap-4 text-zinc-300 mt-4 flex items-center">
-        <Link
-          href="https://github.com/joshxfi"
-          className="flex items-center hover:underline"
-        >
-          GitHub
-          <ArrowUpRightIcon className="size-4" />
-        </Link>
-
-        <Link
-          href="resume.pdf"
-          target="_blank"
-          className="flex items-center hover:underline"
-        >
-          Resume
-          <ArrowUpRightIcon className="size-4" />
-        </Link>
-      </div>
 
       <Projects />
 
