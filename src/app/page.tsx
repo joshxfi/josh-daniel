@@ -10,8 +10,9 @@ export default function Home() {
         <h1 className="font-semibold text-white">Josh Daniel</h1>
 
         <Link
-          href="https://www.linkedin.com/in/joshxfi"
+          href="https://github.com/joshxfi"
           target="_blank"
+          rel="noreferrer noopener"
           className="text-zinc-200 hover:text-white transition-colors"
         >
           <GitHubIcon className="size-4" />
@@ -25,9 +26,9 @@ export default function Home() {
           rel="noreferrer noopener"
           className="text-zinc-300 underline"
         >
-          Referenta,
-        </Link>{" "}
-        improving routine political workflows. As a hobby, I build open-source
+          Referenta
+        </Link>
+        , improving routine political workflows. As a hobby, I build open-source
         projects reaching millions of users.
       </p>
 
